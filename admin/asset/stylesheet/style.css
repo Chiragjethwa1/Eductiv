@@ -1,0 +1,94 @@
+body {
+	background-color: #1E1933;
+	color:#fff;
+	font-family: Roboto;
+}
+
+
+
+
+
+
+.navigation {
+	background-color: #16102C;
+	float:left;
+	height: 100%;
+	width: 180px;
+	position:fixed;
+	z-index: 1;
+	overflow-x: hidden;
+	padding: 10px 15px 15px 15px;
+	top: 0;
+	left: 0;
+}
+
+.maincontainer {
+	height: 100%;
+	//width: 86.85%;
+	background:green;
+	position:absolute;
+	margin-top: 85px;
+}
+
+.maincontainer, .fieldbar {margin-left: 180px;}
+
+.fieldbar {
+	z-index: 1;
+	position: fixed;
+	background: #1E1933;
+	//background: #1E1950;/*temp*/
+	width: 100%;
+	height: 85px;
+	padding: 10px 10px 10px 10px;
+}
+
+
+
+/*BOOTSTRAP OVERRIDES*/
+
+.nav-pills > li > a.active {
+    background-color: #8E2441 !important;
+}
+
+
+.navigation .nav-item {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.fieldbar .nav-item {
+	font-size: 14px;
+	width: 150px;
+	text-align: center;
+}
+
+.fieldbar .nav-item {
+	margin-right: 20px;
+}
+
+.fieldbar .nav-item > .nav-link {
+	color: #fff;
+	background-color: #1A142F;
+}
+
+.navigation .nav-item > .nav-link {color: #775ADA;}
+
+.nav-item > .nav-link {border-radius: 10px;}
+
+.breadcrumb {
+	background: transparent;
+	height: 20px;
+	margin: -10px -15px;
+}
+
+.breadcrumb-item {
+	color:red;
+	margin: -8px 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.breadcrumb-item > a {
+	color: #8E2441;
+}

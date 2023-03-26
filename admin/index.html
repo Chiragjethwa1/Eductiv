@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Administrator Login | EDUctiv</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+		<script src="asset/script/jquery-3.5.1.min.js"></script>
+		<script src="asset/script/main.js"></script>
+		<style>
+			body {
+				height: 100%;
+				background-color: #1E1933;
+				display: grid;
+				place-items: center;
+				font-family: "Roboto";
+			}
+
+			.box {
+				width: 500px;
+				height: 380px;
+				border: #ff304f solid 3px;
+				border-radius: 10px;
+				display: grid;
+				place-items: center;
+				text-align: center;
+			}
+
+			.box input {
+				margin: 20px 0 0 0;
+			}
+
+			.box input[type="text"], input[type="password"] {
+				background-color: transparent;
+				border: #ff304f solid 2px;
+				border-radius: 5px;
+				padding: 8px;
+				width: 280px;
+				color: lightgrey;
+			}
+
+			.box input[type="submit"] {
+				background-color: #ff304f;
+				border: #ff304f solid 2px;
+				border-radius: 5px;
+				padding: 8px;
+				font-weight: bold;
+				color: #1e1933
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<img src="asset/image/logo_e.png" width="150px" />
+			<h5 style="color: #ff304f;">ADMINISTRATOR LOGIN</h5>
+			<form method="POST" action="admin-auth.php">
+				<input type="text" name="username" placeholder="User" required/></br>
+				<input type="password" name="password" placeholder="Password" /></br>
+				<input type="submit" value="ENTER" style="width:100px" />
+			</form>
+		</div>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>

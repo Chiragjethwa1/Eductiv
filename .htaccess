@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule user user.php
+RewriteRule dashboard dashboard.php
+RewriteRule general general.php
